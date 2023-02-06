@@ -24,6 +24,7 @@ public enum EngineType
     
     // getters
     
+    //other
     public String toString(){
         StringBuilder et = new StringBuilder();
         et.append("Engine Type: " + type + "\n");
@@ -32,5 +33,5 @@ public enum EngineType
         et.append("Fuel economy: " + lPer100km + " L/100km" + "\n");
         
         return et.toString();
-    }
-}
+    }// end to string
+}// end EngineType

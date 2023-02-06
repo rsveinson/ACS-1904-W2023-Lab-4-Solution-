@@ -12,6 +12,9 @@ public class RollerCoasterInfo {
         RollerCoaster rc;    // a RollerCoaster object
         RollerCoaster[] rollerCoasters = RollerCoaster.values();
         
+        // why using name for a field is not a great idea
+        //System.out.println(rollerCoasters[0].name());
+        
         // print inverted roller coasters
         System.out.println("Terrifying  Inverted Roller Coasters:");
         

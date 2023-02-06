@@ -15,12 +15,14 @@ public enum RollerCoaster
     private String park;
     private int height;
     private boolean inverted;
+    private String name;
     
     private RollerCoaster(String fn, String p, int h, boolean i){
         friendlyName = fn;
         park = p;
         height = h;
         inverted = i;
+        name = "booyah";
     }
     
     public String getFriendlyName(){
