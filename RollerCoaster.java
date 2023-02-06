@@ -11,7 +11,7 @@ public enum RollerCoaster
             FURY("Fury", "Carowinds", 355, true), DRAGON("Dragon", "Six Flags", 385, false),
             LEVIATHAN("Leviathan", "Wonderland", 401, true), ORION("Orion", "Wonderland", 468, true);
             
-    private String friendlyName;    // this is for the extra challenge
+    private String friendlyName;    // this is for the extra challenge don't use name here why?
     private String park;
     private int height;
     private boolean inverted;
@@ -34,6 +34,8 @@ public enum RollerCoaster
     public int getHeight(){
         return height;
     }
+    
+    // note the absence of setters. why do you think this is?
     
     public boolean isInverted(){
         return inverted;
