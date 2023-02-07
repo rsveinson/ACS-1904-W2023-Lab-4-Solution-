@@ -19,14 +19,15 @@ public enum Pizza
      * you can omit the private access modifier 
      * in the constructor signature
      */
-     Pizza(String fn, double p){
+     private Pizza(String fn, double p){
         friendlyName = fn;
         price = p;
     }// end constructor
     
-    public void setPrice(double p){
-        price = p;
-    }
+    // why is this not a good idea/
+    // public void setPrice(double p){
+        // price = p;
+    // }
     
     @Override
     public String toString(){
